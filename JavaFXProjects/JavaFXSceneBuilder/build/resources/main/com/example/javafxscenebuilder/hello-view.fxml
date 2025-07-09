@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="273.0" prefWidth="566.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxscenebuilder.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" alignment="TOP_LEFT" text="User Login">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Label>
+    <Button alignment="CENTER" onAction="#onHelloButtonClick" text="Log in">
+      <font>
+         <Font name="System Italic" size="14.0" />
+      </font></Button>
+</VBox>
